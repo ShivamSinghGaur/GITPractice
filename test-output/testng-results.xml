@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="10" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-28T07:37:33 IST" name="Suite" finished-at="2021-08-28T07:37:33 IST" duration-ms="114">
+    <groups>
+      <group name="smoke">
+        <method signature="Test2.test5()[pri:0, instance:test.Test2@10d307f1]" name="test5" class="test.Test2"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Test1.test3()[pri:0, instance:test.Test1@2053d869]" name="test3" class="test.Test1"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2021-08-28T07:37:33 IST" name="Test" finished-at="2021-08-28T07:37:33 IST" duration-ms="114">
+      <class name="test.Test2">
+        <test-method is-config="true" signature="classstart()[pri:0, instance:test.Test2@10d307f1]" started-at="2021-08-28T07:37:33 IST" name="classstart" finished-at="2021-08-28T07:37:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classstart -->
+        <test-method is-config="true" signature="methodstart()[pri:0, instance:test.Test2@10d307f1]" started-at="2021-08-28T07:37:33 IST" name="methodstart" finished-at="2021-08-28T07:37:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodstart -->
+        <test-method signature="test5()[pri:0, instance:test.Test2@10d307f1]" started-at="2021-08-28T07:37:33 IST" name="test5" finished-at="2021-08-28T07:37:33 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="methodend()[pri:0, instance:test.Test2@10d307f1]" started-at="2021-08-28T07:37:33 IST" name="methodend" finished-at="2021-08-28T07:37:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodend -->
+        <test-method is-config="true" signature="methodstart()[pri:0, instance:test.Test2@10d307f1]" started-at="2021-08-28T07:37:33 IST" name="methodstart" finished-at="2021-08-28T07:37:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodstart -->
+        <test-method signature="test6()[pri:0, instance:test.Test2@10d307f1]" started-at="2021-08-28T07:37:33 IST" name="test6" finished-at="2021-08-28T07:37:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method is-config="true" signature="methodend()[pri:0, instance:test.Test2@10d307f1]" started-at="2021-08-28T07:37:33 IST" name="methodend" finished-at="2021-08-28T07:37:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodend -->
+        <test-method is-config="true" signature="methodstart()[pri:0, instance:test.Test2@10d307f1]" started-at="2021-08-28T07:37:33 IST" name="methodstart" finished-at="2021-08-28T07:37:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodstart -->
+        <test-method signature="test7(java.lang.String,java.lang.String)[pri:0, instance:test.Test2@10d307f1]" started-at="2021-08-28T07:37:33 IST" name="test7" data-provider="getdata" finished-at="2021-08-28T07:37:33 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method is-config="true" signature="methodend()[pri:0, instance:test.Test2@10d307f1]" started-at="2021-08-28T07:37:33 IST" name="methodend" finished-at="2021-08-28T07:37:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodend -->
+        <test-method is-config="true" signature="methodstart()[pri:0, instance:test.Test2@10d307f1]" started-at="2021-08-28T07:37:33 IST" name="methodstart" finished-at="2021-08-28T07:37:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodstart -->
+        <test-method signature="test8()[pri:0, instance:test.Test2@10d307f1]" started-at="2021-08-28T07:37:33 IST" name="test8" finished-at="2021-08-28T07:37:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+        <test-method is-config="true" signature="methodend()[pri:0, instance:test.Test2@10d307f1]" started-at="2021-08-28T07:37:33 IST" name="methodend" finished-at="2021-08-28T07:37:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodend -->
+        <test-method is-config="true" signature="classend()[pri:0, instance:test.Test2@10d307f1]" started-at="2021-08-28T07:37:33 IST" name="classend" finished-at="2021-08-28T07:37:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classend -->
+      </class> <!-- test.Test2 -->
+      <class name="test.Test1">
+        <test-method is-config="true" signature="suitestart()[pri:0, instance:test.Test1@2053d869]" started-at="2021-08-28T07:37:33 IST" name="suitestart" finished-at="2021-08-28T07:37:33 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitestart -->
+        <test-method is-config="true" signature="classstart()[pri:0, instance:test.Test1@2053d869]" started-at="2021-08-28T07:37:33 IST" name="classstart" finished-at="2021-08-28T07:37:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classstart -->
+        <test-method is-config="true" signature="methodstart()[pri:0, instance:test.Test1@2053d869]" started-at="2021-08-28T07:37:33 IST" name="methodstart" finished-at="2021-08-28T07:37:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodstart -->
+        <test-method signature="test3()[pri:0, instance:test.Test1@2053d869]" started-at="2021-08-28T07:37:33 IST" name="test3" finished-at="2021-08-28T07:37:33 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="methodend()[pri:0, instance:test.Test1@2053d869]" started-at="2021-08-28T07:37:33 IST" name="methodend" finished-at="2021-08-28T07:37:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodend -->
+        <test-method is-config="true" signature="classend()[pri:0, instance:test.Test1@2053d869]" started-at="2021-08-28T07:37:33 IST" name="classend" finished-at="2021-08-28T07:37:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classend -->
+        <test-method is-config="true" signature="suiteend()[pri:0, instance:test.Test1@2053d869]" started-at="2021-08-28T07:37:34 IST" name="suiteend" finished-at="2021-08-28T07:37:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteend -->
+      </class> <!-- test.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
